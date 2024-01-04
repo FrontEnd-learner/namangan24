@@ -182,3 +182,47 @@ body{
     font-size: 20px;
     font-weight: 500;
 }
+
+/* world */
+.world-heading{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* .left-cards {
+} */
+.left-card {
+    width: 797px;
+    height: 205px;
+    padding: 20px 20px 20px 17px;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+.left-card:not(:last-child){
+    margin-bottom: 10px;
+}
+.left-card-img {
+    margin-right: 15px;
+}
+.left-card-info {
+}
+.card-info-title {
+    width: 535px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+}
+.card-info-text {
+    width: 535px;
+    margin-bottom: 20px;
+    color: #4A4B4C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+.card-info-link {
+}
