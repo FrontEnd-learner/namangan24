@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 *:focus{
-    outline: 2px dotted rebeccapurple;
+    outline: 2px dashed #7296EC;
 }
 html{
     height: 100%;
@@ -53,8 +53,6 @@ img{
 }
 
 /* HEADER */
-.site-header {
-}
 .header-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -87,6 +85,21 @@ img{
 }
 .currency-rates-type {
     color: #2959CE;
+}
+/* GLOBAL SEARCH */
+.global-search-form{
+    margin-right: 25px;
+}
+.global-search-form-input{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 60px;
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: normal;
 }
 /* LANG-TOGGLE */
 .lang-toggle {
