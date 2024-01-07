@@ -122,9 +122,40 @@ img{
     background-color: #fff;
     color: #000;
 }
-.button {
+/* SITENAV */
+.sitenav {
+    padding-bottom: 16px;
+    padding-top: 26px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #d1d1d1;
+    font-weight: 500;
 }
-.button-primary {
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.sitenav-item{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.sitenav-item:not(:last-child) {
+    margin-right: 34px;
+}
+.sitenav-link {
+    display: block;
+    color: #7F7F7F;
+    text-align: center;
+    font-size: 18px;
+}
+.sitenav-link:hover{
+    color: #7296EC;
+}
+.sitenav-link:active{
+    opacity: 0.6;
+}
+.site-header-banner-link{
+    display: flex;
 }
 
 /* HERO */
