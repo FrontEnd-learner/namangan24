@@ -34,6 +34,7 @@ img{
 .button{
     display: inline-block;
     padding: 13px 20px;
+    border: 0;
     border-radius: 10px;
     font-size: 16px;
     line-height: normal;
@@ -45,10 +46,10 @@ img{
     background-color: #7296EC;
     color: #fff;
 }
-.button-primary:hover{
+.button:hover{
     opacity: 0.8;
 }
-.button-primary:active{
+.button:active{
     opacity: 0.6;
 }
 
@@ -161,4 +162,91 @@ img{
 /* MAIN CONTENT */
 .main-content{
     flex-grow: 1; /*sticky footer bo'lishiga yordam beradi*/
+    padding-top: 50px;
+}
+
+/* NEWS GRID */
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+.news-grid-item{
+    width: 393px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.article-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px 17px 15px;
+    background-color: #f6f6f6;
+}
+.article-card-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+}
+.article-card-link {
+    display: inline-block;
+    color: #000;
+}
+.article-card-link:hover{
+    color: #7296EC;
+}
+.article-card-link:active{
+    opacity: 0.6;
+}
+.article-card-text {
+    margin-bottom: 15px;
+}
+.article-card-img {
+    display: block;
+    width: 360px;
+    height: 165px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.article-card-footer {
+    display: flex;
+    align-items: center;
+}
+.article-card-source-icon {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.article-card-source {
+    color: #5E5F61;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.notification-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 70px 25px 25px;
+    margin: 60px 75px;
+    border-radius: 10px;
+    background-color: #ffd7ba;
+}
+.notification-cta-text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+}
+.button-orange {
+    color: #fff;
+    display: inline-flex;
+    padding: 13px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F78B3B;
 }
