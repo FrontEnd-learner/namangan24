@@ -1,3 +1,6 @@
+:root{
+    --accent-color: #7296EC;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -5,8 +8,13 @@
     list-style: none;
     text-decoration: none;
 }
+/* *,
+*::before,
+*::after{
+    box-sizing: inherit;
+} */
 *:focus{
-    outline: 2px dashed #7296EC;
+    outline: 2px dashed var(--accent-color);
 }
 html{
     height: 100%;
@@ -47,7 +55,7 @@ img{
     width: 100%;
 }
 .button-primary{
-    background-color: #7296EC;
+    background-color: var(--accent-color);
     color: #fff;
 }
 .button:hover{
@@ -161,7 +169,7 @@ img{
     font-size: 18px;
 }
 .sitenav-link:hover{
-    color: #7296EC;
+    color: var(--accent-color);
 }
 .sitenav-link:active{
     opacity: 0.6;
@@ -207,7 +215,7 @@ img{
     color: #000;
 }
 .article-card-link:hover{
-    color: #7296EC;
+    color: var(--accent-color);
 }
 .article-card-link:active{
     opacity: 0.6;
@@ -331,7 +339,7 @@ img{
     color: #000;
 }
 .article-card-horizontal-link:hover{
-    color: #7296EC;
+    color: var(--accent-color);
 }
 .article-card-horizontal-text {
     margin-bottom: 20px;
@@ -433,7 +441,7 @@ img{
 .site-footer {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #7296EC;
+    background-color: var(--accent-color);
     color: #fff;
 }
 .site-footer-logo-wrapper {
