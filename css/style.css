@@ -571,9 +571,6 @@ img{
     display: flex;
     justify-content: space-between;
 }
-.form-groups-wrappe:not(:last-child){
-    margin-bottom: 10px;
-}
 .form-groups-wrapper .form-group{
     margin-bottom: 0;
     width: calc(50% - 5px);
